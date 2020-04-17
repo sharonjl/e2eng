@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800;900&display=swap");
 html, body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 16px; }
+  font-weight: 400; }
 
 .container {
   width: 100vw;
@@ -22,7 +21,9 @@ html, body {
   background-position: 0 80%; }
 
 .landing .logo {
-  padding: 20px; }
+  padding: 1vw;
+  width: 1vw;
+  height: 1vw; }
 
 .landing .hero {
   position: absolute;
@@ -30,31 +31,31 @@ html, body {
   left: 15%;
   line-height: 1.2em;
   font-weight: 800;
-  font-size: 3.5em;
-  padding: 4px;
+  font-size: 4vw;
   color: white; }
 
 .landing .footer {
   position: absolute;
-  bottom: -100px;
-  left: -10px;
+  bottom: -10%;
+  left: -2%;
   width: 100%;
-  height: 200px;
+  height: 15vh;
   background-color: white;
   transform: rotate(5deg);
   box-shadow: 0px -3px 15px #fff; }
 
 .who-we-are {
   position: relative;
-  height: 70vh; }
+  height: 60vh; }
 
 .who-we-are .heading {
   width: 100%;
   text-align: center;
   font-size: 3em;
   font-weight: bold;
-  padding: 48px 0;
-  margin-bottom: 72px;
+  padding-bottom: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   background: -webkit-linear-gradient(0deg, #048200 0%, #e2c400 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -63,13 +64,13 @@ html, body {
 .who-we-are .content p {
   color: #333;
   font-size: 1.5em;
-  margin: 32px 20%;
+  margin: 0 20%;
   text-align: center;
   line-height: 1.5em; }
 
 .who-we-are .lead {
   width: 2px;
-  height: 250px;
+  height: 20vh;
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -77,30 +78,28 @@ html, body {
 
 .personalized-exp {
   position: relative;
-  height: 70vh; }
+  height: 80vh; }
 
 .personalized-exp .heading {
   width: 100%;
   text-align: center;
   font-size: 4em;
   font-weight: bold;
-  padding: 58px 0;
-  padding-bottom: 48px;
-  margin-bottom: 72px;
+  padding-top: 7%;
+  margin-bottom: 5%;
   color: rgba(19, 19, 19, 0.69); }
 
 .personalized-exp .content p {
-  color: #333;
   font-size: 1.5em;
-  margin: 32px 20%;
+  margin: 0 20%;
   text-align: center;
   line-height: 1.5em;
   color: white; }
 
 .personalized-exp .background {
   position: absolute;
-  bottom: 0%;
-  left: -100px;
+  bottom: 0;
+  left: -5%;
   width: 200%;
   height: 100%;
   background: -webkit-linear-gradient(130deg, #B06A00 0%, #B6008E 100%);
@@ -116,14 +115,14 @@ html, body {
   text-align: center;
   font-size: 4em;
   font-weight: bold;
-  padding: 48px 0;
-  padding-bottom: 32px;
+  padding-top: -5%;
+  padding-bottom: 5%;
   color: rgba(19, 19, 19, 0.69); }
 
 .quality .content p {
   color: #333;
   font-size: 1.5em;
-  margin: 32px 20%;
+  margin: 0 20%;
   text-align: center;
   line-height: 1.5em;
   color: white; }
@@ -150,7 +149,7 @@ html, body {
 
 .contact {
   position: relative;
-  height: 70vh; }
+  height: 100vh; }
 
 .contact .heading {
   width: 100%;
@@ -164,12 +163,14 @@ html, body {
   -webkit-text-fill-color: transparent; }
 
 .contact .content {
-  width: 80%;
+  width: 80vw;
+  height: 100vh;
   margin: 0 auto; }
 
 .contact .content .desc {
   margin-bottom: 40px;
   font-size: 1.2em;
+  line-height: 1.4em;
   font-weight: 500; }
 
 .contact .content .field {
@@ -181,7 +182,8 @@ html, body {
   font-size: 1.2em;
   border: 0;
   border-bottom: #333333 solid 1px;
-  resize: none; }
+  resize: none;
+  padding: 5px; }
 
 .contact .content .field label {
   font-size: 1em;
@@ -197,10 +199,9 @@ html, body {
   display: inline-block;
   cursor: pointer;
   color: #666666;
-  font-family: Arial;
   font-size: 19px;
   font-weight: bold;
-  padding: 13px 25%;
+  padding: 12px 0;
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff; }
 
@@ -213,13 +214,13 @@ html, body {
   top: 1px; }
 
 .footer {
-  height: 100px;
   width: 100%;
+  height: 10vh;
+  margin-top: 5%;
   padding: 20px;
-  background-color: #333;
-  margin-top: 64px; }
+  background-color: #ddd; }
 
 .footer p {
-  color: white; }
+  color: #666; }
 
 /*# sourceMappingURL=default.css.map */

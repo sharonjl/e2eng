@@ -1,0 +1,36 @@
+
+@media (max-width: 768px) {
+  .landing .logo {
+    padding: 2vw;
+    width: 0.7vw;
+    height: 0.7vw;
+  }
+
+  .landing .hero {
+    font-size: 6vw;
+  }
+
+  .contact {
+    margin-top: -10%;
+  }
+
+  .personalized-exp .heading {
+    padding-top: 9%;
+    margin-bottom: 7%;
+  }
+
+  .personalized-exp .content p {
+    margin: 0 10%;
+  }
+
+
+  .quality .heading {
+    padding-top: -5%;
+    padding-bottom: 8%;
+  }
+
+  .quality .content p {
+    margin: 0 10%;
+  }
+
+}
